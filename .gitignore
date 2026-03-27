@@ -1,0 +1,22 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+.DS_Store
+assets/.DS_Store
+**/.DS_Store
+
+# Node.js 의존성 폴더 제외
+node_modules/
+dist/
+
+# 빌드 로그 및 캐시
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# 로컬 환경 설정 파일
+.env
